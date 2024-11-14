@@ -1,0 +1,32 @@
+{
+    "InfoNavLink": [
+        {
+            "href": "/",
+            "name": "INÍCIO"
+        },
+        {
+            "href": "/1",
+            "name": "CURSOS"
+        },
+        {
+            "href": "/2",
+            "name": "SOBRE"
+        },
+        {
+            "href": "/3",
+            "name": "DOCUMENTOS"
+        },
+        {
+            "href": "/4",
+            "name": "CONTATO"
+        }
+    ],
+    "Footer": {
+    "textSocial": "ACOMPANHE NOSSAS REDES SOCIAIS",
+    "socialLinks": [
+        { "platform": "Facebook",  "url": "https://www.facebook.com" },
+        { "platform": "Instagram", "url": "https://www.instagram.com" },
+        { "platform": "LinkedIn",  "url": "https://www.linkedin.com" }
+     ]
+    }
+}
