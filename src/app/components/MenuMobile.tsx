@@ -1,50 +1,36 @@
-import { Sheet, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger, } from "@/components/ui/sheet";
+'use client';
 
-import IconcHamburguer from "@/public/icon/icon-hamburguer.webp";
-import LogoCedup from "@/public/img/img-logo.svg";
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
-import Image from "next/image";
-import NavLink from "./NavLink";
+export default function MenuMobileCustom() {
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleMenu = () => setIsOpen(!isOpen);
 
-import data from "@/data/data.json"
 
-export default function MenuMobile() {
+
     return (
-        <div>
-            <Sheet>
-                <SheetTrigger>
-                    <Image
-                        src={IconcHamburguer}
-                        alt="Icon Hamburguer"
-                        className="w-7 h-auto"
-                    />
-                </SheetTrigger>
-                <SheetContent>
-                    <SheetHeader>
-                        <SheetTitle>
-                            <Image
-                                src={LogoCedup}
-                                alt="Logo Petshop"
-                                width={150}
-                            />
-                        </SheetTitle>
-                    </SheetHeader>
-                    <SheetDescription className="flex flex-col py-12">
-                        {data.InfoNavLink.map((info, index) => (
-                            <NavLink
-                                className="text-lg mb-4"
-                                key={index}
-                                href={info.href}
-                                name={info.name}
-                            />
-                        ))}
+        <div className="flex">
+            <Button
+                className="bg-transparent hover:bg-transparent absolute top-7 right-3 z-50 shadow-none"
+                onClick={toggleMenu}
+            >
+                <div className={`relative w-8 h-6 flex flex-col justify-between items-end cursor-pointer transition-all duration-300 ease-in-out  ${isOpen ? 'open' : ''}`} onClick={toggleMenu} >
+                    <span className={`w-full h-1 bg-white transition-all duration-300 ease-in-out transform rounded-xl ${isOpen ? '-rotate-45 translate-y-[10px] !bg-primary-color' : ''}`}></span>
+                    <span className={`h-1 bg-white transition-all duration-300 ease-in-out rounded-xl ${isOpen ? 'opacity-0 w-full' : 'w-3/4'}`}></span>
+                    <span className={`h-1 bg-white transition-all duration-300 ease-in-out transform rounded-xl  ${isOpen ? 'rotate-45 translate-y-[-10px] w-full !bg-primary-color' : 'w-2/4 '}`}></span>
+                </div>
+            </Button>
 
-                    </SheetDescription>
-                    <SheetDescription className="fixed bottom-8 right-8">
-                        Redes Sociais
-                    </SheetDescription>
-                </SheetContent>
-            </Sheet>
+            <div className={`absolute top-0 right-0 ${isOpen ? 'backdrop-blur-sm bg-zinc-600/80 w-full h-screen' : ''}`}
+                onClick={() => setIsOpen(false)}
+            >
+                <div className={`absolute top-0 right-0 bg-white p-6 shadow-lg rounded-md z-40 h-screen transition-all duration-500 !pt-24 ${isOpen ? 'menu menuOpen' : 'menu menuClosed'}`}
+                    onClick={(e) => e.stopPropagation()}>
+                   
+
+                </div>
+            </div>
         </div>
     );
 }

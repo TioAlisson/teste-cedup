@@ -1,5 +1,6 @@
 {
-    "InfoNavLink": [
+    "Home": {
+        "InfoNavLink": [
         {
             "href": "/",
             "name": "INÍCIO"
@@ -14,19 +15,141 @@
         },
         {
             "href": "/3",
-            "name": "DOCUMENTOS"
+            "name": "DOCUMENTOS",
+            "dropdown": "true"
         },
         {
-            "href": "/4",
+            "href": "/contact",
             "name": "CONTATO"
         }
     ],
+    "CardsMVV": [
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-star.svg", 
+            "alt": "Icon Star", 
+            "title": "Missão", 
+            "paragraph": "Nossa equipe experiente de instrutores proporciona uma educação de alta qualidade, preparando nossos alunos para alcançarem o sucesso." 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-home.svg", 
+            "alt": "Icon Home", 
+            "title": "Visão", 
+            "paragraph": "Oferecemos uma variedade de cursos de alta qualidade, capacitando nossos alunos com habilidades práticas essenciais para o mercado atual." 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-eye.svg", 
+            "alt": "Icon Eye", 
+            "title": "Valores", 
+            "paragraph": "Nossa abordagem de ensino, inclui aulas práticas, o uso de tecnologia para proporcionar uma experiência de aprendizado dinâmica e eficaz." 
+        }
+    ],
+    "CardsCurso": [
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/e71ef1fc663da8e61dbc33eb68c01ccb16cd54a2/images/img-informatica.svg", 
+            "alt": "Curso tal", 
+            "imageIcon": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-email-form.svg",   
+            "altIcon": "emoji tal",
+            "course": "INFORMÁTICA",
+            "title": "Domine a tecnologia com nosso curso de informática. Domine a tecnologia com nosso curso de informática."
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/e71ef1fc663da8e61dbc33eb68c01ccb16cd54a2/images/img-informatica.svg", 
+            "alt": "Curso tal", 
+            "imageIcon": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-email-form.svg",   
+            "altIcon": "emoji tal",
+            "course": "INFORMÁTICA",
+            "title": "Domine a tecnologia com nosso curso de informática."
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/e71ef1fc663da8e61dbc33eb68c01ccb16cd54a2/images/img-informatica.svg", 
+            "alt": "Curso tal", 
+            "imageIcon": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-email-form.svg",   
+            "altIcon": "emoji tal",
+            "course": "INFORMÁTICA",
+            "title": "Domine a tecnologia com nosso curso de informática."
+        }
+    ]
+    },
+   "Contact": {
+    "mapa": [
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-instagram.svg", 
+            "alt": "Instagram", 
+            "url": "https://www.instagram.com" 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-facebook.svg", 
+            "alt": "Facebook", 
+            "url": "https://www.facebook.com" 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-linkedin.svg", 
+            "alt": "LinkedIn", 
+            "url": "https://www.linkedin.com" 
+        }
+    ],
+    "form": [
+        { 
+            "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-profile.svg", 
+            "alt": "Icon Profile", 
+            "url": "/", 
+            "type": "text", 
+            "placeholder": "Nome completo"
+        },
+        { 
+            "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-email-form.svg", 
+            "alt": "Icon Email", 
+            "url": "/", 
+            "type": "mail", 
+            "placeholder": "Endereço de e-mail" 
+        },
+        { 
+            "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-phone.svg", 
+            "alt": "Icon Phone", 
+            "url": "/", 
+            "type": "phone", 
+            "placeholder": "Telefone"
+        }
+    ]
+    },
     "Footer": {
     "textSocial": "ACOMPANHE NOSSAS REDES SOCIAIS",
     "socialLinks": [
-        { "platform": "Facebook",  "url": "https://www.facebook.com" },
-        { "platform": "Instagram", "url": "https://www.instagram.com" },
-        { "platform": "LinkedIn",  "url": "https://www.linkedin.com" }
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-facebook-white.svg", 
+            "alt": "Facebook",  
+            "url": "https://www.facebook.com" },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-instagram-white.svg", 
+            "alt": "Instagram", 
+            "url": "https://www.instagram.com" },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-linkedin-white.svg", 
+            "alt": "LinkedIn",  
+            "url": "https://www.linkedin.com" }
+     ],
+     "endereco": [
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-endereco.svg", 
+            "alt": "Instagram", 
+            "url": "https://www.instagram.com", 
+            "title": "ENDEREÇO", 
+            "paragraph": "Av. Mal. Castelo Branco, 109 - Universitário Lages" 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-email.svg", 
+            "alt": "Facebook",
+            "url": "https://www.facebook.com", 
+            "title": "CONTATO", 
+            "paragraph": "alisson@gmail.com (49) 3289-8260" 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-atedimento.svg", 
+            "alt": "LinkedIn", 
+            "url": "https://www.linkedin.com", 
+            "title": "ATENDIMENTO", 
+            "paragraph": "Seg/Sex: 8h – 18h Sáb/Dom: Fechado" 
+        }
      ]
     }
 }

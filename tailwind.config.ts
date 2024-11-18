@@ -11,7 +11,7 @@ export default {
   	extend: {
   		colors: {
 			"primary-color": "#252324",
-			"primary-500": "#E74040",
+			"sencodary-500": "#E74040",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -60,5 +60,4 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
 } satisfies Config;

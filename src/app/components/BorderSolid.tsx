@@ -4,8 +4,6 @@ interface BorderSolidProps {
 
 export default function BorderSolid({ styleMargin }: BorderSolidProps) {
     return (
-        <div className={`w-24 h-[10px] mt-6 bg-red-700 ${styleMargin}`}>
-
-        </div>
+        <span className={`block w-28 h-[10px] mt-6 bg-sencodary-500 ${styleMargin}`}></span>
     )
 }
