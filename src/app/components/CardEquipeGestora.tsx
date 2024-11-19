@@ -10,14 +10,13 @@ import Image, { StaticImageData } from "next/image";
 export default function CardEquipeGestora({ image, alt, name, description }: CardEquipeGestoraProps) {
     return (
         <div className="rounded-sm overflow-hidden card-equipe">
-            <div className="relative bg-sencodary-500">
+            <div className="relative">
                 <Image
                     src={image}
                     alt={alt}
-                    width={200}
-                    height={100}
+                    className="w-full h-60 object-cover"
                 />
-                <div className="absolute flex items-center justify-center bg-zinc-800/80 w-full h-full top-0 bg-card-equipe">
+                <div className="absolute flex items-center justify-center bg-primary-400 w-full h-full top-0 bg-card-equipe">
                     <div>
                         <p className="text-white">Só teste priviet</p>
                         <img src="https://tioalisson.github.io/Projeto-Cedup.github.io/assets/img/Icon-instagram.svg" alt="oi" />

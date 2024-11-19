@@ -27,8 +27,6 @@ export default function MenuMobileCustom() {
             >
                 <div className={`absolute top-0 right-0 bg-white p-6 shadow-lg rounded-md z-40 h-screen transition-all duration-500 !pt-24 ${isOpen ? 'menu menuOpen' : 'menu menuClosed'}`}
                     onClick={(e) => e.stopPropagation()}>
-                   
-
                 </div>
             </div>
         </div>

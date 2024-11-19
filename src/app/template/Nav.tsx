@@ -29,7 +29,7 @@ const Header = () => {
     }, []);
 
     return (
-        <header className={`transition-all ease-in-out duration-300 flex items-center fixed w-full ${isScrolled ? 'menu-fixed' : 'bg-primary-500  py-6'}`}>
+        <header className={`transition-all ease-in-out duration-300 flex items-center fixed w-full z-10 ${isScrolled ? 'menu-fixed' : 'bg-primary-500  py-6'}`}>
             <nav className="w-full">
                 <div className="container mx-auto flex items-center">
                     <div className="flex-shrink">

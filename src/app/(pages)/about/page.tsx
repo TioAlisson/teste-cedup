@@ -14,6 +14,8 @@ export default function Courses() {
                 <h2 className='text-primary-500 uppercase text-center text-5xl font-bold'>CEDUP RENATO RAMOS DA SILVA</h2>
                 <BorderSolid styleMargin='mx-auto' />
                 <SectionMVV />
+            </div>
+            <div className='bg-gray'>
                 <SectionEquipeGestora />
             </div>
         </div>
