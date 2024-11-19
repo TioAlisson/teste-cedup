@@ -9,7 +9,7 @@ export default function SectionSobre() {
     return (
         <div className="grid grid-cols-12 container mx-auto">
             <div className="col-span-12 lg:col-span-6 w-full py-24">
-                <h3 className="text-4xl lg:text-5xl font-semibold text-center lg:text-start">SOBRE</h3>
+                <h3 className="text-4xl lg:text-5xl font-semibold text-center lg:text-start text-primary-500">SOBRE</h3>
                 <BorderSolid styleMargin="mx-auto lg:mx-0" />
                 <p className="py-14 text-center lg:text-start">O Projeto Político Pedagógico é um processo democrático iniciado em 1999, revisado em 2000/2005/2006 e finalizado em junho de 2008 após grupos de estudo. Ele representa uma constante evolução, visando à construção de um trabalho pedagógico mais eficaz e de melhor qualidade, orientado pela comunidade escolar.</p>
                 <div>
@@ -19,12 +19,12 @@ export default function SectionSobre() {
                 </div>
             </div>
             <div className="col-span-12 lg:col-span-5 lg:col-start-8 flex items-center 2xl:items-start">
-                <Image 
+                <Image
                     src={ImgMulher}
                     alt="Mulher section sobre"
                     className="w-full object-contain object-center"
                 />
             </div>
-        </div>   
-    )  
+        </div>
+    )
 }      

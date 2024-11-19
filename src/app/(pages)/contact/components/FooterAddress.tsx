@@ -3,6 +3,9 @@
 import Image from "next/image";
 import LineRed from "@/public/img/img-line.svg"
 
+import IconWhats from "@/public/icon/icon-whatsapp.png"
+import IconLocazition from "@/public/icon/icon-localizition.png"
+
 import Link from "next/link";
 
 import data from "@/data/data.json"
@@ -33,7 +36,7 @@ export default function SectionAddress() {
                     <div>
                         <Link href="https://github.com/TioAlisson/Projeto-Cedup.github.io" className="flex items-center gap-4">
                             <Image
-                                src={LineRed}
+                                src={IconWhats}
                                 alt="Line Green"
                                 width={40}
                             />
@@ -41,9 +44,9 @@ export default function SectionAddress() {
                         </Link>
                         <Link href="https://github.com/TioAlisson/Projeto-Cedup.github.io" className="flex items-center gap-4 py-10">
                             <Image
-                                src={LineRed}
+                                src={IconLocazition}
                                 alt="Line Green"
-                                width={40}
+                                width={36}
                             />
                             <span className="text-lg lg:text-2xl w-[400px]">Avenida Castelo Branco, N 109 Universitario Lages - SC</span>
                         </Link>

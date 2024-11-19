@@ -1,5 +1,5 @@
 import SectionCursos from "./template/SectionCursos";
-import SectionEquipe from "./template/SectionEquipe";
+import SectionEquipeGestora from "./template/SectionEquipeGestora";
 import SectionFotos from "./template/SectionFotos";
 import SectionMVV from "./template/SectionMVV";
 import SectionSlide from "./template/SectionSlide";
@@ -13,7 +13,7 @@ export default function Home() {
       <SectionCursos />
       <SectionSobre />
       <SectionFotos />
-      <SectionEquipe />
+      <SectionEquipeGestora />
     </>
   );
 }

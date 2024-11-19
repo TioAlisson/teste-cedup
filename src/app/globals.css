@@ -180,3 +180,7 @@ textarea::placeholder {
   opacity: 0;
   transition: all ease-in-out .3s;
 }
+
+.galeria-prev-button, .galeria-next-button {
+  background-image: url('../public/icon/icon-arrow-fotos.svg');
+}

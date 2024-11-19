@@ -14,11 +14,10 @@ export default function CardFotos({ image, alt, title }: CardFotosProps) {
             <Image
                 src={Teste}
                 alt="teste"
-                width={300}
-                height={200}
-                className="object-cover w-full"
+
+            // className="object-cover w-full"
             />
-            <span className="absolute bottom-0 w-full bg-red-500/70 py-2 text-center uppercase text-2l font-semibold">{title}</span>
+            <span className="absolute bottom-0 w-full bg-red-500/70 py-2 text-center uppercase lg:text-xl text-white font-semibold">{title}</span>
         </div>
     );
 }

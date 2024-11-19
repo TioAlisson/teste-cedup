@@ -12,7 +12,7 @@ interface CardCursoProps {
 
 export default function CardCurso({ image, alt, imageIcon, altIcon, course, title }: CardCursoProps) {
     return (
-        <div className="2xl:px-8"> 
+        <div className="2xl:px-8">
             <div className="overflow-hidden rounded-md shadow-2xl">
                 <div>
                     <Image
@@ -32,7 +32,7 @@ export default function CardCurso({ image, alt, imageIcon, altIcon, course, titl
                         />
                         <span className="flex">{course}</span>
                     </div>
-                    <p className="md:text-xl text-center lg:text-start font-semibold line-clamp-2">{title}</p>
+                    <p className="md:text-xl text-center lg:text-start font-semibold line-clamp-2 text-primary-500">{title}</p>
                     <div className="text-center lg:text-start">
                         <Button variant="btnCursos" className="mt-4">Ler mais</Button>
 

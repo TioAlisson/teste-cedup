@@ -17,7 +17,7 @@ export default function CardMVV({ image, alt, title, paragraph }: CardMVVProps) 
                     width={75}
                     height={75}
                 />
-                <p className="text-[26px] 2xl:text-4xl font-bold">{title}</p>
+                <p className="text-[26px] 2xl:text-4xl font-bold text-primary-500">{title}</p>
             </div>
             <div className="border border-sencodary-500 w-full my-8"></div>
             <p className="text-center line-clamp-4 text-lg">{paragraph}</p>
