@@ -6,7 +6,7 @@ import CardCurso from "../components/CardCurso";
 
 export default function SectionCursos() {
     return (
-        <div className="bg-[#E7E7E7]">
+        <div className="bg-gray">
             <div className="py-24 container mx-auto">
                 <div className="text-4xl lg:text-5xl font-semibold text-center">
                     <h2 className="text-primary-500">CONFIRA ALGUNS DE NOSSOS</h2>
@@ -19,7 +19,6 @@ export default function SectionCursos() {
                             image={card.image}
                             alt={card.alt}
                             imageIcon={card.imageIcon}
-                            altIcon={card.altIcon}
                             course={card.course}
                             title={card.title}
                         />

@@ -180,3 +180,6 @@ textarea::placeholder {
   opacity: 0;
   transition: all ease-in-out .3s;
 }
+
+.texto_dica {position: absolute; top: 0; right: 300px; color: #003139; font-size: 14px; font-style: italic; font-weight: 700; letter-spacing: 7px;}
+.texto_dica strong {color: #0022FF;}
