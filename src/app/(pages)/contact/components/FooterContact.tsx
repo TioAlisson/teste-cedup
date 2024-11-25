@@ -1,17 +1,13 @@
 'use client'
 
-
-
 import Link from "next/link";
-import data from "@/data/data.json"
-
+import data from "@/data/dataContact.json"
 
 import { Button } from "@/components/ui/button";
 import InputContact from "./InputContact";
 import Image from "next/image";
 
 import IconText from "@/public/icon/icon-text.svg"
-
 
 export default function SectionContact() {
     return (
@@ -20,7 +16,7 @@ export default function SectionContact() {
                 <h2 className="text-3xl lg:text-5xl uppercase text-zinc-900 font-semibold text-center">Entre em contanto</h2>
                 <p className="text-center pt-14 pb-8 text-xl">Precisa de ajuda? Quer saber algo a mais? Preencha o formulário e nos envie uma mensagem. Entraremos em contato em breve!</p>
                 <div>
-                    {data.Contact.form.map((info, index) => (
+                    {data.contact.form.map((info, index) => (
                         <div key={index}>
                             <InputContact
                                 key={index}

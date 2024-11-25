@@ -1,0 +1,29 @@
+{
+    "navLink": [
+        {
+            "href": "/",
+            "name": "INÍCIO"
+        },
+        {
+            "href": "/courses",
+            "name": "CURSOS"
+        },
+        {
+            "href": "/about",
+            "name": "SOBRE"
+        },
+        {
+            "href": "#",
+            "name": "DOCUMENTOS",
+            "dropdown": {
+                "editais": "editais",
+                "estagio": "estagio",
+                "horario": "horario"
+            }
+        },
+        {
+            "href": "/contact",
+            "name": "CONTATO"
+        }
+    ]
+}

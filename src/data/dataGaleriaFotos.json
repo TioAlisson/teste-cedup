@@ -1,0 +1,34 @@
+{
+    "galeriaFotos": [
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-1.svg",
+            "alt": "Image Galeria de Fotos 1",
+            "title": "Lages"
+        },
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-2.svg",
+            "alt": "Image Galeria de Fotos 2",
+            "title": "Lages"
+        },
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-3.svg",
+            "alt": "Image Galeria de Fotos 3",
+            "title": "Lages"
+        },
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-4.svg",
+            "alt": "Image Galeria de Fotos 4",
+            "title": "Lages"
+        },
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-5.svg",
+            "alt": "Image Galeria de Fotos 5",
+            "title": "Lages"
+        },
+        {
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/bbca8fccbe8fac1a4ead809d559a5dacc6186281/images/img-galeria-fotos-6.svg",
+            "alt": "Image Galeria de Fotos 6",
+            "title": "Lages"
+        }
+    ]
+}

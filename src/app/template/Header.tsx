@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/public/img/img-logo.svg";
-import data from "@/data/data.json";
+import data from "@/data/dataNavLink.json";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import MenuMobile from "../components/MenuMobile";
@@ -69,28 +69,26 @@ const Header = () => {
             <nav className="w-full">
                 <div className="container mx-auto flex items-center">
                     <div className="flex-shrink">
-                        <Link href="/" rel="noreferrer">
+                        <Link href="/" rel="noopener noreferrer">
                             <Image src={Logo} alt="Logo Cedup" className="logo" />
                         </Link>
                     </div>
                     <div className="hidden lg:flex gap-6 flex-grow justify-center">
                         <ul className="flex gap-6">
                             {/* Itera sobre os links de navegação no arquivo JSON */}
-                            {data.Home.InfoNavLink.map((info, index) => (
+                            {data.navLink.map((info, index) => (
                                 <li key={index} className="relative group">
                                     <Link
+                                        rel="noopener noreferrer"
                                         href={info.href}
-                                        className={`
-                      text-white font-semibold transition-all ease-in-out duration-300 flex
-                      ${isScrolled ? "text-[20px]" : "text-[24px]"} // Altera o tamanho da fonte dependendo do scroll
-                      ${normalizePathname(pathname) === normalizePathname(info.href)
-                                                ? "border-b-4 border-red-500" // Se o link estiver ativo (é a página atual), aplica a borda vermelha
-                                                : "border-b-4 border-transparent"} // Se o link não for ativo, a borda é transparente
-                      group-hover:border-b-4 group-hover:border-red-500 // No hover, muda a borda para vermelha
-                    `}
+                                        className={`text-white font-semibold transition-all ease-in-out duration-300 flex group-hover:border-b-4 group-hover:border-red-500
+                                            ${isScrolled ? "text-[20px]" : "text-[24px]"}
+                                            ${normalizePathname(pathname) === normalizePathname(info.href) 
+                                            ? "border-b-4 border-red-500" 
+                                            : "border-b-4 border-transparent"}`}
                                     >
-                                        {info.name}  {/* Exibe o nome do link */}
-                                        {/* Se o link tiver um dropdown, exibe o ícone de seta */}
+                                        {info.name} 
+                                        {/* Se o link tiver um dropdown, exibe o ícone */}
                                         {info.dropdown && (
                                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M7 10L12 15L17 10H7Z" fill="white" />

@@ -1,9 +1,23 @@
+'use client'
+
 import SingleBanner from '../components/SingleBanner'
 import SectionEquipeGestora from '@/app/template/SectionEquipeGestora'
 import SlideABout from './components/SlideAbout'
 import SectionMVV from '@/app/template/SectionMVV'
+import Faq from './components/Faq'
+
+import data from "@/data/dataFaq.json"
+
+import { useState } from 'react'
+
 
 export default function Courses() {
+    const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+    // Função para alternar a abertura e fechamento da FAQ
+    const handleToggle = (index: number | null) => {
+        setOpenIndex(openIndex === index ? null : index);
+    };
     return (
         <div>
             <SingleBanner
@@ -21,6 +35,20 @@ export default function Courses() {
             <div>
                 <SectionMVV />
                 <SectionEquipeGestora />
+                <div className='max-w-[700px] mx-auto py-20 px-8 lg:px-0'>
+                    {data.faq.map((faq, index) => (
+                        <Faq
+                            key={index}
+                            title={faq.title}
+                            alt={faq.alt}
+                            index={index}
+                            openIndex={openIndex}
+                            setOpenIndex={handleToggle}
+                            iconOpen={faq.iconOpen}
+                            assistentes={faq.assistentes} 
+                        />
+                    ))}
+                </div>
             </div>
         </div>
     )

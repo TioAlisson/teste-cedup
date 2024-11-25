@@ -1,12 +1,12 @@
 import { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Header from "./template/Nav";
 import Footer from "./template/Footer";
+import Header from "./template/Header";
 
 // Import Montserrat font
 const montserrat = Montserrat({
-  weight: ["100", "400", "700"],
+  weight: ["100", "400", "500", "600", "700", "900"],
   subsets: ["latin"],
 });
 

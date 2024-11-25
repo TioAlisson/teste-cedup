@@ -6,7 +6,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import CardTimeline from './CardTimeline';
 
-import data from "@/data/data.json"
+import data from "@/data/dataTimeline.json"
 
 export default function Customers() {
     return (

@@ -8,7 +8,7 @@ import IconLocazition from "@/public/icon/icon-localizition.png"
 
 import Link from "next/link";
 
-import data from "@/data/data.json"
+import data from "@/data/dataContact.json"
 
 
 export default function SectionAddress() {
@@ -52,21 +52,19 @@ export default function SectionAddress() {
                         </Link>
                     </div>
                     <div>
-                        <div>
-                            <span className="text-zinc-700 font-semibold text-2xl">Nossas redes:</span>
-                            <div className="flex items-center gap-4 py-4">
-                                {data.Contact.mapa.map((link, index) => (
-                                    <Link key={index} href={link.url} target="_blank" rel="noreferrer">
-                                        <Image
-                                            key={index}
-                                            src={link.image}
-                                            alt={link.alt}
-                                            width={40}
-                                            height={30}
-                                        />
-                                    </Link>
-                                ))}
-                            </div>
+                        <span className="text-zinc-700 font-semibold text-2xl">Nossas redes:</span>
+                        <div className="flex items-center gap-4 py-4">
+                            {data.contact.mapa.map((link, index) => (
+                                <Link key={index} href={link.url} target="_blank" rel="noreferrer">
+                                    <Image
+                                        key={index}
+                                        src={link.image}
+                                        alt={link.alt}
+                                        width={40}
+                                        height={30}
+                                    />
+                                </Link>
+                            ))}
                         </div>
                     </div>
                 </div>

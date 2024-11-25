@@ -1,14 +1,14 @@
-import data from "@/data/data.json";
+import data from "@/data/dataFooter.json";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function FooterSocial() {
-    const text = data.Footer.textSocial;
+    const text = data.footer.textSocial;
     const words = text.split("REDES SOCIAIS");
 
     return (
         <div className="flex justify-center items-center gap-6 mb-24 lg:mb-32">
-            {data.Footer.socialLinks.map((social, index) => (
+            {data.footer.socialLinks.map((social, index) => (
                 <Link key={index} href={social.url} target="_blank" rel="noopener noreferrer">
                     <Image
                         src={social.image}

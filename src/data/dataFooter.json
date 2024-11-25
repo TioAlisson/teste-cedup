@@ -1,0 +1,42 @@
+{
+    "footer": {
+        "textSocial": "ACOMPANHE NOSSAS REDES SOCIAIS",
+        "socialLinks": [
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-facebook-white.svg", 
+                "alt": "Facebook",  
+                "url": "https://www.facebook.com" },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-instagram-white.svg", 
+                "alt": "Instagram", 
+                "url": "https://www.instagram.com" },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-linkedin-white.svg", 
+                "alt": "LinkedIn",  
+                "url": "https://www.linkedin.com" }
+         ],
+         "address": [
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-endereco.svg", 
+                "alt": "Instagram", 
+                "url": "https://www.instagram.com", 
+                "title": "ENDEREÇO", 
+                "paragraph": "Av. Mal. Castelo Branco, 109 - Universitário Lages" 
+            },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-email.svg", 
+                "alt": "Facebook",
+                "url": "https://www.facebook.com", 
+                "title": "CONTATO", 
+                "paragraph": "alisson@gmail.com (49) 3289-8260" 
+            },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/b5ffa1110b84429a631bc6ebf39c8a03dda55fde/icons/icon-atedimento.svg", 
+                "alt": "LinkedIn", 
+                "url": "https://www.linkedin.com", 
+                "title": "ATENDIMENTO", 
+                "paragraph": "Seg/Sex: 8h – 18h Sáb/Dom: Fechado" 
+            }
+        ]
+    }
+}

@@ -10,7 +10,7 @@ const btnStyle = "border-b-2 border-transparent hover:border-b-2 hover:border-zi
 
 export default function NavLink({ href, name, className }: NavLinkProps) {
     return (
-        <Link className={`${className} ${btnStyle}`} href={href} rel="noreferrer">
+        <Link className={`${className} ${btnStyle}`} href={href} rel="noopener noreferrer">
             {name}
         </Link>
     );

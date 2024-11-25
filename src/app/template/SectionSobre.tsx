@@ -1,9 +1,9 @@
-import Link from "next/link";
 import BorderSolid from "../components/BorderSolid";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
-import ImgMulher from "@/public/img/img-sobre.png"
+import Link from "next/link";
+import Image from "next/image";
+import ImageMulher from "@/public/img/img-sobre.png"
 
 export default function SectionSobre() {
     return (
@@ -13,14 +13,14 @@ export default function SectionSobre() {
                 <BorderSolid styleMargin="mx-auto lg:mx-0" />
                 <p className="py-14 text-center lg:text-start">O Projeto Político Pedagógico é um processo democrático iniciado em 1999, revisado em 2000/2005/2006 e finalizado em junho de 2008 após grupos de estudo. Ele representa uma constante evolução, visando à construção de um trabalho pedagógico mais eficaz e de melhor qualidade, orientado pela comunidade escolar.</p>
                 <div>
-                    <Link href="/" className="flex justify-center lg:justify-start">
+                    <Link href="/" rel="noopener noreferrer" className="flex justify-center lg:justify-start">
                         <Button variant="defaulCedup">Saiba mais</Button>
                     </Link>
                 </div>
             </div>
             <div className="col-span-12 lg:col-span-5 lg:col-start-8 flex items-center 2xl:items-start">
                 <Image
-                    src={ImgMulher}
+                    src={ImageMulher}
                     alt="Mulher section sobre"
                     className="w-full object-contain object-center"
                 />

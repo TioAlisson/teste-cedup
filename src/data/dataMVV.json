@@ -1,0 +1,22 @@
+{
+    "cardsMVV": [
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-star.svg", 
+            "alt": "Icon Star", 
+            "title": "Missão", 
+            "paragraph": "Nossa equipe experiente de instrutores proporciona uma educação de alta qualidade, preparando nossos alunos para alcançarem o sucesso." 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-home.svg", 
+            "alt": "Icon Home", 
+            "title": "Visão", 
+            "paragraph": "Oferecemos uma variedade de cursos de alta qualidade, capacitando nossos alunos com habilidades práticas essenciais para o mercado atual." 
+        },
+        { 
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/5c65b4a923d35ff08533ee7cd5168ba60ff432cf/icons/icon-eye.svg", 
+            "alt": "Icon Eye", 
+            "title": "Valores", 
+            "paragraph": "Nossa abordagem de ensino, inclui aulas práticas, o uso de tecnologia para proporcionar uma experiência de aprendizado dinâmica e eficaz." 
+        }
+    ]
+}

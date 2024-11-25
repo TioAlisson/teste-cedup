@@ -1,0 +1,40 @@
+{
+    "timelineData": [
+        {
+            "year": "1978",
+            "title": "O Centro Interescolar de 2º Grau Renato Ramos da Silva iniciou suas atividades em 09/05/1978 e desde então tem procurado atender às necessidades e interesses comunitários, oferecendo cursos técnicos conforme a realidade apresentada pelo mercado de trabalho, local e regional.",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-system.svg",
+            "alt": "Icone Timeline"
+        },
+        {
+            "year": "1989",
+            "title": "A entidade mantenedora era a Fundação Educacional de Santa Catarina - FESC até 1989. A partir de 1989 foi criada a Cooperativa dos alunos do CIS.",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-south-america.svg",
+            "alt": "Icone Timeline"
+        },
+        {
+            "year": "1978",
+            "title": "O Centro Interescolar de 2º Grau Renato Ramos da Silva iniciou suas atividades em 09/05/1978 e desde então tem procurado atender às necessidades e interesses comunitários, oferecendo cursos técnicos conforme a realidade apresentada pelo mercado de trabalho, local e regional.",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-material.svg",
+            "alt": "Icone Timeline"
+        },
+        {
+            "year": "2000",
+            "title": "Em 2000 foi alterada a identificação das Unidades Escolares e o CIS passa a chamar-se Centro de Educação Profissional “Renato Ramos da Silva” - CEDUP.",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-material.svg",
+            "alt": "Icone Timeline"
+        },
+        {
+            "year": "2007",
+            "title": "A partir de 2007 a APP (Associação de Pais e Professores) substituiu a Cooperativa dos alunos.",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-material.svg",
+            "alt": "Icone Timeline"
+        },
+        {
+            "year": "HOJE",
+            "title": "Plano de expansão",
+            "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/141a13211bd14cb7a1aeab1a69355f9e09cef891/icons/icon-earth.svg",
+            "alt": "Icone Timeline"
+        }
+    ]
+}

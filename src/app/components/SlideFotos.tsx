@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import data from "@/data/dataGaleriaFotos.json";
 import CardFotos from './CardFotos';
 
 export default function Customers() {
@@ -24,7 +25,7 @@ export default function Customers() {
                     scrollbar={{ draggable: true }}
                     loop={true}
                     autoplay={{
-                        delay: 5000,
+                        delay: 2000,
                         disableOnInteraction: false,
                     }}
                     navigation={{
@@ -49,26 +50,15 @@ export default function Customers() {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                 >
-                    <SwiperSlide>
-                        <CardFotos
-                            title='lages'
-                        />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardFotos
-                            title='lages'
-                        />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardFotos
-                            title='lages'
-                        />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <CardFotos
-                            title='lages'
-                        />
-                    </SwiperSlide>
+                    {data.galeriaFotos.map((item, index) => (
+                        <SwiperSlide key={index}>
+                            <CardFotos
+                                image={item.image}
+                                alt={item.alt || item.title}
+                                title={item.title}
+                            />
+                        </SwiperSlide>
+                    ))}
                 </Swiper>
             </div>
             <div className='galeria-next-button order-2 lg:order-3 col-span-5 col-start-8 lg:col-span-1'>

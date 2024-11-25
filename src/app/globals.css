@@ -183,3 +183,43 @@ textarea::placeholder {
 
 .texto_dica {position: absolute; top: 0; right: 300px; color: #003139; font-size: 14px; font-style: italic; font-weight: 700; letter-spacing: 7px;}
 .texto_dica strong {color: #0022FF;}
+
+.swiper-pagination-bullet {
+  width: 25px !important;
+  height: 6px !important;
+  border-radius: 0px !important;
+  background: white !important;
+  opacity: 0.4 !important;
+} 
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background: white !important;
+}
+
+.swiper-pagination {
+  bottom:  30px !important;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 5% !important;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 5% !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: white !important;
+  opacity: 0.6 !important;
+  margin-top: 40px !important;
+}
+
+@media only screen and (max-device-width: 1000px), screen and (max-width: 1000px) {
+  .swiper-button-prev, .swiper-button-next {
+    opacity: 0 !important;
+    top: 0 !important;  
+    height: 100vh !important;
+    width: 20% !important;
+    z-index: 1 !important;
+  }
+}

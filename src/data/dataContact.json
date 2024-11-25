@@ -1,0 +1,44 @@
+{
+    "contact": {
+        "mapa": [
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-instagram.svg", 
+                "alt": "Instagram", 
+                "url": "https://www.instagram.com" 
+            },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-facebook.svg", 
+                "alt": "Facebook", 
+                "url": "https://www.facebook.com" 
+            },
+            { 
+                "image": "https://raw.githubusercontent.com/TioAlisson/images-cedup/eb41b9c93ad078f5364a92e0c501f6bae5bec7a5/icons/icon-linkedin.svg", 
+                "alt": "LinkedIn", 
+                "url": "https://www.linkedin.com" 
+            }
+        ],
+        "form": [
+            { 
+                "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-profile.svg", 
+                "alt": "Icon Profile", 
+                "url": "/", 
+                "type": "text", 
+                "placeholder": "Nome completo"
+            },
+            { 
+                "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-email-form.svg", 
+                "alt": "Icon Email", 
+                "url": "/", 
+                "type": "mail", 
+                "placeholder": "Endereço de e-mail" 
+            },
+            { 
+                "src": "https://raw.githubusercontent.com/TioAlisson/images-cedup/8bd90ad905b11d26a6a36d653d35ef813e14cb10/icons/icon-phone.svg", 
+                "alt": "Icon Phone", 
+                "url": "/", 
+                "type": "phone", 
+                "placeholder": "Telefone"
+            }
+        ]
+    }
+}
