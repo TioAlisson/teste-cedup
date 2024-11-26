@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import CourseDetails from '../components/CoursesDetails';
 
 interface CursosProps {
-    params: Promise<{ nome: string }>; // 'params' é uma Promise que resolve para um objeto com 'nome'
+    params: Promise<{ nome: string }>; 
 }
 
 export default function Cursos({ params }: CursosProps) {
